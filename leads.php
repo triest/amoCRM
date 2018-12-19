@@ -6,6 +6,7 @@
  * Time: 21:26
  */
 
+//возвращает сделки без задач
 function getLeads()
 {
     /* Для начала нам необходимо инициализировать данные, необходимые для составления запроса. */
@@ -16,8 +17,8 @@ function getLeads()
     выше).
     Следовательно, мы можем заменить ссылку, приведённую выше на одну из следующих, либо скомбинировать параметры так, как Вам
     необходимо. */
-    $link = 'https://' . $subdomain . '.amocrm.ru/api/v2/leads?limit_rows=50';
-    $link = 'https://' . $subdomain . '.amocrm.ru/api/v2/leads?limit_rows=50';//&limit_offset=2&filter/tasks=1'; //сделки без задач
+   // $link = 'https://' . $subdomain . '.amocrm.ru/api/v2/leads?limit_rows=50';
+    $link = 'https://' . $subdomain . '.amocrm.ru/api/v2/leads?limit_rows=50&filter[tasks]=1'; //сделки без задач
     /* Следующий запрос вернёт список сделок, у которых есть почта 'test@mail.com' */
     // $link='https://'.$subdomain.'.amocrm.ru/api/v2/leads?query=test@mail.com';
     /* Нам необходимо инициировать запрос к серверу. Воспользуемся библиотекой cURL (поставляется в составе PHP). Подробнее о
