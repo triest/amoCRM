@@ -167,8 +167,9 @@ $userId = 23393644;
 $arrayIDs = getIdList($response);
 $timestamp = strtotime("22-12-2018 15:00");
 
-$date = "22-12-2018 15:00";
-$dtime = DateTime::createFromFormat("d/m/y G:i", "25/12/2018 15:00");
+$date = "22-12-2018 15:00:00";
+$dtime = strtotime($date);
+
 
 CreateTaskInLoop($arrayIDs, $userId, $dtime);
 
