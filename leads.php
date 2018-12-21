@@ -167,10 +167,10 @@ $userId = 23393644;
 $arrayIDs = getIdList($response);
 $timestamp = strtotime("22-12-2018 15:00");
 
-$date = "22-12-2018 15:00:00";
-$dtime = strtotime($date);
-
-
-CreateTaskInLoop($arrayIDs, $userId, $dtime);
+echo $date;
+$date=new DateTime();
+$date=$date->format('Y-m-d h:i:s');
+$date=date('Y-m-d h:i:s', strtotime($date. ' + 1 days'));
+CreateTaskInLoop($arrayIDs, $userId, $date);
 
 //triest user id 23393644

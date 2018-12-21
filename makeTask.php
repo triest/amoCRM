@@ -222,19 +222,16 @@ if ($auch!=true){
 }
 
 $response = getLeads();
-
-
 // тут загоняем в массив id сделок, без задачь (просто извлекаем id из jsona
 
 $userId = 23393644;
-
 $arrayIDs = getIdList($response);
-$timestamp = strtotime("23-12-2018 15:00");
+$date=new DateTime();
+$date=$date->format('Y-m-d h:i:s');
+$date=date('Y-m-d h:i:s', strtotime($date. ' + 1 days'));
 
-//$date = "22-12-2018 15:00:00";
-//$dtime = strtotime($timestamp);
 
+CreateTaskInLoop($arrayIDs, $userId, $date);
 
-CreateTaskInLoop($arrayIDs, $userId, $timestamp);
 
 
