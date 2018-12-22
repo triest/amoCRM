@@ -147,7 +147,7 @@ function getIdList($response)
 }
 
 //создает задачу для сделка с вфодным id
-function createTask($id, $name, /*$end_data,*/ $responsible_user_id)
+function createTask($id, $name, $end_data, $responsible_user_id)
 {
 
     $tasks['add'] = array(
@@ -158,7 +158,7 @@ function createTask($id, $name, /*$end_data,*/ $responsible_user_id)
             'task_type' => 1, #Звонок
             'text' => $name,
             'responsible_user_id' => $responsible_user_id,
-         //   'complete_till_at' => $end_data
+            'complete_till_at' => $end_data
         ),
 
     );
@@ -207,17 +207,17 @@ function createTask($id, $name, /*$end_data,*/ $responsible_user_id)
 }
 
 //получает массив слелок и вызывает функцию создания задач
-function CreateTaskInLoop($array, $userId/*, $complete_till_at*/)
+function CreateTaskInLoop($array, $userId, $complete_till_at)
 {
     if (!empty($array)) {
         foreach ($array as $item) {
-            createTask($item, 'сделка без задачи'/*, $complete_till_at*/, $userId);
+            createTask($item, 'сделка без задачи', $complete_till_at, $userId);
         }
     }
 }
 
-$auch=auch();
-if ($auch!=true){
+$auch = auch();
+if ($auch != true) {
     exit();
 }
 
@@ -226,10 +226,9 @@ $response = getLeads();
 
 $userId = 23393644;
 $arrayIDs = getIdList($response);
-$date=new DateTime();
-$date=$date->format('Y-m-d h:i:s');
-$date=date('Y-m-d h:i:s', strtotime($date. ' + 1 days'));
-
+$date = new DateTime();
+$date = $date->format('Y-m-d H:i:s');
+$date = date('Y-m-d H:i:s', strtotime($date . ' + 1 days'));
 
 CreateTaskInLoop($arrayIDs, $userId, $date);
 

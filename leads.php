@@ -156,21 +156,14 @@ function CreateTaskInLoop($array, $userId, $complete_till_at)
     }
 }
 
-
 $response = getLeads();
-
-
 // тут загоняем в массив id сделок, без задачь (просто извлекаем id из jsona
 
 $userId = 23393644;
-
 $arrayIDs = getIdList($response);
-$timestamp = strtotime("22-12-2018 15:00");
-
-echo $date;
-$date=new DateTime();
-$date=$date->format('Y-m-d h:i:s');
-$date=date('Y-m-d h:i:s', strtotime($date. ' + 1 days'));
+$date = new DateTime();
+$date = $date->format('Y-m-d H:i:s');
+$date = date('Y-m-d H:i:s', strtotime($date . ' + 1 days'));
 CreateTaskInLoop($arrayIDs, $userId, $date);
 
 //triest user id 23393644
