@@ -1,16 +1,19 @@
 <?php
 
+$loginOnSite='triest21@gmail.com';
+$hash='af7af41ee237370e383774253cc10a6e51bf8816';
+$subdomain = 'triest21';
 
-function auch()
+function auch($loginOnSite,$api_hash,$subdomain)
 {
 #Массив с параметрами, которые нужно передать методом POST к API системы
     $user = array(
-        'USER_LOGIN' => 'triest21@gmail.com',
+        'USER_LOGIN' => $loginOnSite,
         #Ваш логин (электронная почта)
-        'USER_HASH' => 'af7af41ee237370e383774253cc10a6e51bf8816'
+        'USER_HASH' => $api_hash,
         #Хэш для доступа к API (смотрите в профиле пользователя)
     );
-    $subdomain = 'triest21'; #Наш аккаунт - поддомен
+  //  $subdomain = 'triest21'; #Наш аккаунт - поддомен
 #Формируем ссылку для запроса
     $link = 'https://' . $subdomain . '.amocrm.ru/private/api/auth.php?type=json';
     /* Нам необходимо инициировать запрос к серверу. Воспользуемся библиотекой cURL (поставляется в составе PHP). Вы также
@@ -67,10 +70,10 @@ function auch()
 
 
 //возвращает сделки без задач
-function getLeads()
+function getLeads( $subdomain)
 {
     /* Для начала нам необходимо инициализировать данные, необходимые для составления запроса. */
-    $subdomain = 'triest21'; #Наш аккаунт - поддомен
+ //   $subdomain = 'triest21'; #Наш аккаунт - поддомен
     /* Формируем ссылку для запроса */
     /* Заметим, что в ссылке можно передавать и другие параметры, которые влияют на выходной результат (смотрите документацию
     выше).
@@ -215,12 +218,12 @@ function CreateTaskInLoop($array, $userId, $complete_till_at)
     }
 }
 
-$auch = auch();
+$auch = auch($loginOnSite,$hash,$subdomain);
 if ($auch != true) {
     exit();
 }
 
-$response = getLeads();
+$response = getLeads($subdomain);
 // получаем массив сделок без задачи
 
 $userId = 23393644; //от лица какого пользователя создаються сделки.
