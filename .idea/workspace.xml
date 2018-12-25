@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0128930d-92a9-4295-848d-3d91ec4f84c0" name="Default" comment="Add README.md">
+      <change beforePath="$PROJECT_DIR$/makeTask.php" beforeDir="false" afterPath="$PROJECT_DIR$/makeTask.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="makeTask.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/makeTask.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="692">
+              <caret line="229" column="13" selection-start-line="229" selection-start-column="13" selection-end-line="229" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="68">
+                <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>den</find>
+      <find>conf</find>
+      <find>Response</find>
+      <find>saveRe</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/amo.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/.env" />
+        <option value="$PROJECT_DIR$/leads.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/migrations/m181222_141616_create_city_review_table.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/views/site/confirm_city.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/models/Reviews.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/config/function.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/config/web.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/views/site/cityList.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/config/functions.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/web/index.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/migrations/m181223_093604_add_timestamp_to_users_table.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/migrations/m181113_175913_user.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/migrations/m181114_194003_add_create_time_in_comments.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/migrations/m181116_213141_add_is_admin_to_user.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/migrations/m181113_174208_reviews.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/views/layouts/main.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/views/site/test.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/views/review/create.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/controllers/SiteController.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/editGirl.blade.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/views/review/_form.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/models/City.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/migrations/m181224_205131_add_timestamp_to_reviews_table.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/city.ru/public_html/controllers/ReviewController.php" />
+        <option value="$PROJECT_DIR$/makeTask.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-71" />
+    <option name="y" value="355" />
+    <option name="width" value="1918" />
+    <option name="height" value="645" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="amoCRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amoCRM" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Yii-curse-7.2/firsTask" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0128930d-92a9-4295-848d-3d91ec4f84c0" name="Default" comment="" />
+      <created>1545153275405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545153275405</updated>
+      <workItem from="1545153277050" duration="172000" />
+      <workItem from="1545153455441" duration="5355000" />
+      <workItem from="1545160283027" duration="3983000" />
+      <workItem from="1545196871937" duration="18349000" />
+      <workItem from="1545368569892" duration="14067000" />
+      <workItem from="1545473117609" duration="26620000" />
+      <workItem from="1545554991705" duration="2514000" />
+      <workItem from="1545559537388" duration="30544000" />
+      <workItem from="1545629365915" duration="8296000" />
+      <workItem from="1545670747781" duration="16312000" />
+      <workItem from="1545716327732" duration="1493000" />
+    </task>
+    <task id="LOCAL-00001" summary="Test commit">
+      <created>1545153480703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545153480703</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Test commit">
+      <created>1545153497154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545153497154</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Get list leads">
+      <created>1545161220923</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545161220923</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Get liads without tasks">
+      <created>1545223369774</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545223369774</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Create tasks in loop.">
+      <created>1545339667945</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545339667945</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create tasks with currrect time.">
+      <created>1545341005457</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1545341005457</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add all script to one file">
+      <created>1545418573826</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545418573826</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix date. Current date+ 1 day.">
+      <created>1545429818625</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1545429818625</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Cleare code.">
+      <created>1545478862832</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1545478862832</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add README.md">
+      <created>1545479404476</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1545479404476</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="127705000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32312566" />
+      <window_info anchor="bottom" id="Migrations" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.26614583" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15208334" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="File Transfer" order="8" visible="true" weight="0.32946146" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test commit" />
+    <MESSAGE value="Get list leads" />
+    <MESSAGE value="Get liads without tasks" />
+    <MESSAGE value="Create tasks in loop." />
+    <MESSAGE value="Create tasks with currrect time." />
+    <MESSAGE value="Add all script to one file" />
+    <MESSAGE value="Fix date. Current date+ 1 day." />
+    <MESSAGE value="Cleare code." />
+    <MESSAGE value="Add README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add README.md" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/amo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" selection-start-line="3" selection-end-line="66" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="170" selection-start-line="170" selection-end-line="172" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makeTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3808">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="90" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" selection-start-line="3" selection-end-line="66" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="165" column="40" selection-start-line="165" selection-start-column="40" selection-end-line="165" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makeTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="229" column="13" selection-start-line="229" selection-start-column="13" selection-end-line="229" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

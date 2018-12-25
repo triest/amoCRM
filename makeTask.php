@@ -72,7 +72,6 @@ function getLeads()
     /* Для начала нам необходимо инициализировать данные, необходимые для составления запроса. */
     $subdomain = 'triest21'; #Наш аккаунт - поддомен
     /* Формируем ссылку для запроса */
-    $link = 'https://' . $subdomain . '.amocrm.ru/api/v2/leads';
     /* Заметим, что в ссылке можно передавать и другие параметры, которые влияют на выходной результат (смотрите документацию
     выше).
     Следовательно, мы можем заменить ссылку, приведённую выше на одну из следующих, либо скомбинировать параметры так, как Вам
@@ -132,7 +131,7 @@ function getLeads()
     return $json_output;
 }
 
-
+//возвращает список id сделок
 function getIdList($response)
 {
     $response = $response["_embedded"];
@@ -206,7 +205,7 @@ function createTask($id, $name, $end_data, $responsible_user_id)
     }
 }
 
-//получает массив слелок и вызывает функцию создания задач
+//получает массив слелок и вызывает функцию создания задач для каждой из них
 function CreateTaskInLoop($array, $userId, $complete_till_at)
 {
     if (!empty($array)) {
@@ -222,13 +221,13 @@ if ($auch != true) {
 }
 
 $response = getLeads();
-// тут загоняем в массив id сделок, без задачь (просто извлекаем id из jsona
+// получаем массив сделок без задачи
 
-$userId = 23393644;
-$arrayIDs = getIdList($response);
+$userId = 23393644; //от лица какого пользователя создаються сделки.
+$arrayIDs = getIdList($response); //получаем массив id сделок
 $date = new DateTime();
-$date = $date->format('Y-m-d H:i:s');
-$date = date('Y-m-d H:i:s', strtotime($date . ' + 1 days'));
+$date = $date->format('Y-m-d H:i:s');//текущие дата-время
+$date = date('Y-m-d H:i:s', strtotime($date . ' + 1 days')); //крайний срок -сутки от текуших даты-времен
 
 CreateTaskInLoop($arrayIDs, $userId, $date);
 
