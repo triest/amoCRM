@@ -1,8 +1,8 @@
 <?php
 
-$loginOnSite='triest21@gmail.com';
-$hash='af7af41ee237370e383774253cc10a6e51bf8816';
-$subdomain = 'triest21';
+$loginOnSite='';
+$hash='';
+$subdomain = '';
 
 function auch($loginOnSite,$api_hash,$subdomain)
 {
